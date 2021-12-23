@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding:0;
+	
+	font-size:16px;
+	color: black;
+	font-family:Tahoma;
+	font-weight:300;
+	}
+
+	.signup{
+	margin:0;
+	position:relative;
+	height:100%;
+     width:100%;
+	background:#fff;
+	}
+	.left-box{
+	position:absolute;
+	top:0;
+	left:200px;
+	box-sizing:border-box;
+	padding:80px;
+	width:500px;
+	height:100%;
+	
+	}
+	.h1{
+	margin: 0 0 20px 0;
+	font-weight:300;
+	font-size:30px;
+	}
+	.left-box input[type="text"], input[type="password"] {
+	display:block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding:4px;
+	width:220px;
+	height:32px;
+	border:none;
+	border-bottom:1px solid #aaa;
+	font-family:tahoma;
+	font-weight:400;
+	font-size:15px;
+	transition:0.2s ease;
+	
+	}
+	
+	.left-box input[type="submit"]{
+	margin-bottom:28px;
+	width:120px;
+	height:32px;
+	background:#f44336;
+	border:none;
+	border-radius:2px;
+	color:#fff;
+	font-family:tahoma;
+	font-weight:500;
+	text-transform:uppercase;
+	transition:0.2s ease;
+	cursor: pointer;
+	
+	
+	}
+	
+.left-box input [input="submit"]:hover, input[type="submit"]:focus {
+background:#ff5722;
+transition:0.2s ease;
+
+}
